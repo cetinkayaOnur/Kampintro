@@ -40,15 +40,19 @@ namespace ClassMethodDemo
                 customerManager.Add(customer);
             }
 
-            foreach (var customer in customers)
-            {
-                customerManager.List(customer);
-            }
+           
+                customerManager.List();
+            
 
             foreach (var customer in customers)
-            {
+            { 
                 customerManager.Delete(customer);
             }
+
+            customerManager.List();
+            customerManager.Add(customer1);
+            customerManager.Add(customer4);
+            customerManager.List();
 
             
             
