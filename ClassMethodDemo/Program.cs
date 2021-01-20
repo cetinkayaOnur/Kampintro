@@ -41,7 +41,7 @@ namespace ClassMethodDemo
             }
 
            
-                customerManager.List();
+            customerManager.List();
             
 
             foreach (var customer in customers)
